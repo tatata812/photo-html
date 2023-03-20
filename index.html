@@ -1,0 +1,242 @@
+<!-- <?php
+  $des="サイト説明文が入ります。サイト説明文が入ります。サイト説明文が入ります。サイト説明文が入ります。サイト説明文が入ります。"
+  ; ?> -->
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="email=no,telephone=no,address=no">
+  <!--!!!!!!!!!!!!!!!!!WPでは不要!!!!!!!!!!!!!!!!!!!!!-->
+  <title>フォトスタジオ　サイト制作</title>
+  <meta name="description" content="<?php echo $des; ?>">
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+    content="<?php wp_title( '-', true, 'right' ); ?><?php bloginfo( 'name' ); ?> | <?php echo $des; ?>">
+  <meta property="og:description" content="<?php echo $des; ?>">
+  <meta property="og:site_name"
+    content="<?php wp_title( '-', true, 'right' ); ?><?php bloginfo( 'name' ); ?> | <?php echo $des; ?>">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/fb.jpg">
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title"
+    content="<?php wp_title( '-', true, 'right' ); ?><?php bloginfo( 'name' ); ?> | <?php echo $des; ?>">
+  <meta name="twitter:description" content="<?php echo $des; ?>">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="stylesheet" href="assets/css/html5reset-1.6.1.css">
+  <link rel="stylesheet" href="assets/css/style.css?20230220">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body class="wrap">
+
+  <header class="header wrap-header">
+    <div class="header__inner">
+      <h1 class="header__ttl"><a href="index.html"><img src="assets/img/top/header-logo.png" alt=""></a>
+      </h1>
+      <nav>
+        <ul class="header__nav">
+          <li class="header__nav-item"><a href="#" class="header__nav-link">お知らせ</a>
+          </li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link">撮影メニュー</a></li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link">よくある質問</a></li>
+          <li class="header__nav-item"><a href="contact.html" class="header__nav-link">お問い合わせ</a></li>
+
+        </ul>
+      </nav>
+      <div class="header__open-btn">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <div class="header-sp">
+      <div class="header-sp__inner">
+        <nav>
+          <ul class="header-sp__nav">
+            <li class="header-sp__nav-item"><a href="#" class="header-sp__nav-link">お知らせ</a></li>
+            <li class="header-sp__nav-item"><a href="#" class="header-sp__nav-link">撮影メニュー</a></li>
+            <li class="header-sp__nav-item"><a href="#" class="header-sp__nav-link">よくある質問</a></li>
+            <li class="header-sp__nav-item"><a href="#" class="header-sp__nav-link">お問い合わせ</a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+
+
+  <div class="main page-top">
+
+    <div class="main-visual page-top__main-visual">
+      <div class="main-visual__slider-wrap">
+        <div class="main-visual__slider top-slider-js">
+          <div class="main-visual__slider-item">
+            <img src="assets/img/top/top-slider01.jpg">
+          </div>
+          <div class="main-visual__slider-item">
+            <img src="assets/img/top/top-slider02.jpg">
+          </div>
+          <div class="main-visual__slider-item">
+            <img src="assets/img/top/top-slider03.jpg">
+          </div>
+        </div>
+        <!-- スライダーここまで -->
+        <p class="main-visual__slider-lead">
+          小田原駅前の写真館。<br>
+          旅の思い出づくりをお手伝いします&#x23AF;&#x23AF;&#x23AF;&#x23AF。
+        </p>
+      </div>
+    </div>
+
+
+    <div class="page-top__bg-flower">
+
+
+      <section class="top-about page-top__about">
+        <h2 class="top-about__ttl">小田原　Kimono　jikan</h2>
+
+        <p class="top-about__text">城下町、宿場町、日本遺産の街…小田原<br>
+          小田原駅から歩いてすぐに小田原城。<br>
+          ひと歩きにちょうど良い15分程で浜辺に出られます。<br>
+          街歩きにはグルメスポットや写真映えする建物、風情ある街並み・・・<br>
+          着物でおでかけしてみたら・・・<br>
+          いつもの旅がもっと華やかに楽しみもグーンと広がります。</p>
+
+        <p class="top-about__text">でも、でも、でも・・・<br>
+          ちょっと恥ずかしいな・・・<br>
+          そんなに若くないのに着てもいいかしら？<br>
+          派手すぎるのは嫌だな・・・<br>
+          どんなふうに街歩きすればいいかな？</p>
+
+        <p class="top-about__text">そんなちょっとした不安や心配があったりしますよね・・・<br>
+          せっかくの小田原、せっかくの着物時間を楽しんでいただけるように<br>
+          着付け場所、着物街歩きMAP、たくさんの優待やお得に街歩きできる着物めぐり帖、付き添いガイドなど・・・<br>
+          こんなのあったらいいなをご用意してあなたの着物時間をコーディネートいたします。</p>
+
+
+        <div class="top-about__photo-wrap">
+          <img src="assets/img/top/photo01.jpg" v class="top-about__photo">
+          <img src="assets/img/top/photo02.jpg" v class="top-about__photo">
+          <img src="assets/img/top/photo03.jpg" v class="top-about__photo">
+          <img src="assets/img/top/photo04.jpg" v class="top-about__photo">
+          <img src="assets/img/top/photo05.jpg" v class="top-about__photo">
+          <img src="assets/img/top/photo06.jpg" v class="top-about__photo">
+          <img src="assets/img/top/photo09.jpg" v class="top-about__photo">
+          <img src="assets/img/top/photo08.jpg" v class="top-about__photo">
+          <img src="assets/img/top/photo07.jpg" v class="top-about__photo">
+          <img src="assets/img/top/photo10.jpg" v class="top-about__photo">
+        </div>
+      </section>
+
+      <section class="top-plan page-top__sns section">
+
+        <div class="top-plan__ttl-wrap">
+
+          <h2 class="top-plan__ttl section__ttl">撮影メニュー</h2>
+
+          <p style="text-align: center;font-size: 28px;
+          margin: 20px 0;font-weight: bold; color: red;" >準備中
+          </p>
+        </div>
+        <div class="top-plan__content">
+          <div class="top-plan__item">
+            <h3 class="top-plan__item-ttl">プラン　A
+            </h3>
+            <p class="top-plan__item-text">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+            <a href="#" class="top-plan__item-btn">詳しくはこちら</a>
+          </div>
+
+          <div class="top-plan__item">
+            <h3 class="top-plan__item-ttl">プラン　B
+            </h3>
+            <p class="top-plan__item-text">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+            <a href="#" class="top-plan__item-btn top-plan__item-btn--b">詳しくはこちら</a>
+          </div>
+
+          <div class="top-plan__item">
+            <h3 class="top-plan__item-ttl">プラン　C
+            </h3>
+            <p class="top-plan__item-text">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+            <a href="#" class="top-plan__item-btn top-plan__item-btn--c">詳しくはこちら</a>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="top-sns page-top__sns section">
+        <div class="top-sns__content">
+
+          <div class="top-sns__item">
+            <div class="top-sns__ttl-wrap">
+
+              <h2 class="top-sns__ttl section__ttl">フェイスブック</h2>
+              <p style="text-align: center;font-size: 28px;
+              margin: 20px 0;font-weight: bold; color: red;" >準備中
+              </p>
+            </div>
+
+            <div class="top-sns__sns-wrap">
+
+            </div>
+
+
+
+          </div>
+
+          <div class="top-sns__item">
+            <div class="top-sns__ttl-wrap">
+              <h2 class="top-sns__ttl section__ttl">インスタグラム</h2>
+              <p style="text-align: center;font-size: 28px;
+              margin: 20px 0;font-weight: bold; color: red;" >準備中
+              </p>
+            </div>
+            <div class="top-sns__sns-wrap">
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+    <section class="top-reserve">
+      <div class="top-reserve__content">
+        <a href="contact.html" class="top-reserve__link">お問い合わせ</a>
+        <a href="#" class="top-reserve__link">予約</a>
+      </div>
+    </section>
+
+    <section class="top-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.903255179316!2d139.15317562168502!3d35.25646721425142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019a456371660b9%3A0xec7648d666eafdcd!2z5bCP55Sw5Y6f6aeF!5e0!3m2!1sja!2sjp!4v1679332982412!5m2!1sja!2sjp"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+  </div>
+  <!--main end-->
+
+
+  <footer class="footer">
+    小田原 Kimono jikan
+  </footer>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="assets/js/main.js">
+  </script>
+</body>
+
+</html>
