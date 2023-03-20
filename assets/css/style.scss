@@ -85,7 +85,7 @@ header
 
   &__nav-link {
     padding-bottom: 14px;
-    font-size: 18px;
+    font-size: 16px;
     position: relative;
     color: #fff;
   }
@@ -288,12 +288,13 @@ top
 
   &__slider-lead {
     position: absolute;
-    bottom: 330px;
+    bottom: 230px;
     left: 13%;
+    font-size: 18px;
     color: #fff;
 
     @include pc {
-      bottom: 430px;
+      bottom: 330px;
     }
 
     @include tab {
@@ -309,6 +310,11 @@ top
 
 .top-about {
   padding: 120px 18px 0;
+
+  @include sp{
+    padding: 60px 18px 0;
+
+  }
 
   &__ttl {
     font-size: 22px;
@@ -360,6 +366,7 @@ top
   &__item {
     background-color: #f4ebe2;
     padding: 24px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   }
 
   &__item-ttl {
@@ -469,6 +476,10 @@ top
     padding: 12px;
     width: 400px;
     border: #8a8a8a 3px solid;
+
+    @include sp{
+    font-size:14px;
+    }
   }
 }
 
