@@ -477,7 +477,7 @@ top
   content: "";
   position: absolute;
   width: 120px;
-  top: 20px;
+  top: 0;
   height: 100%;
   left: 20px;
   background: url(../img/top/bg-flower-left.png) repeat-y left top;
