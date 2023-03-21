@@ -326,6 +326,10 @@ top
     max-width: 432px;
     margin: 0 0 0 -50px;
 
+
+    @include tab{
+      margin: 0;
+    }
   }
 
   &__text {
@@ -359,6 +363,10 @@ top
     width: 240px;
     top: 174px;
     right: -50px;
+
+    @include tab{
+    display:none;
+    }
   }
 
   &__img01 {
@@ -366,6 +374,10 @@ top
     width: 140px;
     top: 430px;
     right: 200px;
+
+    @include tab{
+      display:none;
+      }
   }
 
 }

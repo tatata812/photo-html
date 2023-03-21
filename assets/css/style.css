@@ -572,6 +572,11 @@ top
   max-width: 432px;
   margin: 0 0 0 -50px;
 }
+@media (max-width: 820px) {
+  .top-about__ttl {
+    margin: 0;
+  }
+}
 .top-about__text {
   max-width: 832px;
   margin: 0 auto 60px;
@@ -602,11 +607,21 @@ top
   top: 174px;
   right: -50px;
 }
+@media (max-width: 820px) {
+  .top-about__img02 {
+    display: none;
+  }
+}
 .top-about__img01 {
   position: absolute;
   width: 140px;
   top: 430px;
   right: 200px;
+}
+@media (max-width: 820px) {
+  .top-about__img01 {
+    display: none;
+  }
 }
 
 .top-plan__content {
