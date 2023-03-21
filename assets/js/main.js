@@ -33,7 +33,10 @@ $(function () {
     dots: false,
     arrows: false,
     slidesToShow: 1,
+  });
 
-
+  // ローティングバナの×
+  $('#btn-js,#btn-js02').click(function () {
+    $(this).parent().hide();
   });
 })

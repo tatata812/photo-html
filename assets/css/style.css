@@ -1,4 +1,8 @@
 @charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   word-break: break-word;
   box-sizing: border-box;
@@ -125,6 +129,78 @@ li {
   height: 50px;
 }
 
+.contact-btn {
+  position: fixed;
+  background: rgba(253, 214, 218, 0.6);
+  color: #fff;
+  bottom: 130px;
+  right: 12px;
+  padding: 20px 0;
+  font-size: 18px;
+  text-align: center;
+  line-height: 18px;
+  border-radius: 8px;
+  width: 160px;
+  z-index: 400;
+}
+@media (max-width: 600px) {
+  .contact-btn {
+    width: 120px;
+    font-size: 14px;
+  }
+}
+.contact-btn__link:hover {
+  text-decoration: none;
+}
+.contact-btn__close {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  z-index: 500;
+  display: block;
+  font-size: 24px;
+  cursor: pointer;
+}
+@media (max-width: 1120px) {
+  .contact-btn__close {
+    top: 2px;
+    right: 2px;
+  }
+}
+.contact-btn__close:hover {
+  opacity: 1;
+}
+
+.fluffy {
+  animation: fluffy1 3s ease infinite;
+}
+
+@keyframes fluffy1 {
+  0% {
+    transform: translateY(0);
+  }
+  5% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-10px);
+  }
+  25% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .fadeIn-anime01 {
   animation-name: fadeInAnime;
   animation-duration: 3s;
