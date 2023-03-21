@@ -106,7 +106,7 @@ li {
   content: "";
   position: absolute;
   height: 100%;
-  left: -66px;
+  left: -55px;
   background: url(../img/top/ttl-left.png);
   background-repeat: no-repeat;
   background-size: 40px auto;
@@ -117,7 +117,7 @@ li {
   content: "";
   position: absolute;
   height: 100%;
-  right: -66px;
+  right: -70px;
   background: url(../img/top/ttl-right.png);
   background-repeat: no-repeat;
   background-size: 40px auto;
@@ -557,6 +557,17 @@ top
 .top-plan__item-btn--c {
   background-color: #92c9ff;
 }
+.top-map__ttl-wrap {
+  text-align: center;
+}
+.top-map__ttl {
+  margin: 0 0 40px;
+}
+.top-map__address {
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
 .top-sns {
   padding: 0 0 120px;
 }
@@ -636,6 +647,18 @@ footer
   padding: 12px;
   background-color: #000;
   font-size: 12px;
+  position: relative;
+}
+.footer__scroll-btn {
+  position: absolute;
+  right: 12px;
+  width: 120px;
+  bottom: 0;
+}
+@media (max-width: 820px) {
+  .footer__scroll-btn {
+    width: 60px;
+  }
 }
 
 /* =================================
